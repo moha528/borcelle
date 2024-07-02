@@ -1,0 +1,47 @@
+// // Variables
+// $primary-color: #007bff;
+// $secondary-color: #6c757d;
+
+// // Mixins
+// @mixin flex-center {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// // Nesting
+// .container {
+//     background-color: $primary-color;
+
+//     .title {
+//         color: white;
+//         font-size: 24px;
+//     }
+
+//     .content {
+//         padding: 20px;
+//     }
+// }
+
+// // Inheritance
+// .error-message {
+//     color: red;
+//     font-weight: bold;
+// }
+
+// .success-message {
+//     @extend .error-message;
+//     color: green;
+// }
+
+// // Functions
+// @function calculate-width($width) {
+//     @return $width * 2;
+// }
+
+// // Usage
+// .my-element {
+//     width: calculate-width(100px);
+//     background-color: $secondary-color;
+//     @include flex-center;
+// }
